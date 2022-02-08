@@ -1,0 +1,28 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class DestroyTarget : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+        Debug.Log("Enter collider");
+		if(collision.gameObject.tag == "Target")
+		{
+            Debug.Log("Is target.");
+            GameObject.Destroy(collision.gameObject);
+		}
+	}
+}

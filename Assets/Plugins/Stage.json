@@ -1,0 +1,36 @@
+{"Stages":
+	[{
+		"TargetCoords":
+		[
+			{"X":1, "Y":1}
+		],
+		"PartialExpression":"",
+		"XMax":0,
+		"XMin":0,
+		"VariableMax":0,
+		"VariableMin":0
+	},
+	{
+		"TargetCoords":
+		[
+			{"X":2, "Y":3}
+		],
+		"PartialExpression":"+2*x",
+		"XMax":0,
+		"XMin":0,
+		"VariableMax":0,
+		"VariableMin":0
+	},
+	{
+		"TargetCoords":
+		[
+			{"X":2, "Y":2},
+			{"X":4, "Y":2}
+		],
+		"PartialExpression":"+2",
+		"XMax":0,
+		"XMin":0,
+		"VariableMax":0,
+		"VariableMin":0
+	}
+]}
